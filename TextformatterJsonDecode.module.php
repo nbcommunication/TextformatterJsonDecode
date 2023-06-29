@@ -3,7 +3,7 @@
 /**
  * ProcessWire JSON Decode Textformatter
  *
- * #pw-summary Passes the given text through json_decode, returning the value (if valid) as a StdClass object.
+ * #pw-summary Passes the given text through json_decode(), returning the value (if valid) as a StdClass object.
  *
  * @copyright 2023 NB Communication Ltd
  * @license Mozilla Public License v2.0 http://mozilla.org/MPL/2.0/.

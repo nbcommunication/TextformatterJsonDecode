@@ -3,7 +3,7 @@
 /**
  * ProcessWire JSON Decode Textformatter
  *
- * #pw-summary Passes the given text through json_decode(), returning the value (if valid) as a StdClass object.
+ * #pw-summary Passes the given text through json_decode(), returning the value (if valid) as a stdClass object.
  *
  * @copyright 2023 NB Communication Ltd
  * @license Mozilla Public License v2.0 http://mozilla.org/MPL/2.0/.
@@ -15,7 +15,7 @@ class TextformatterJsonDecode extends Textformatter {
 	public static function getModuleInfo() {
 		return array(
 			'title' => 'JSON Decode',
-			'summary' => 'Passes the given text through json_decode(), returning the value (if valid) as a StdClass object.',
+			'summary' => 'Passes the given text through json_decode(), returning the value (if valid) as a stdClass object.',
 			'version' => 1,
 			'author' => 'nbcommunication',
 			'href' => 'https://github.com/nbcommunication/TextformatterJsonDecode',
